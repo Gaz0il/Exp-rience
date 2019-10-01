@@ -9,10 +9,24 @@ body
 
 #header
 {
-	height: :100vh;
+	height:100vh;
+
 	background:linear-gradient(rgba(0,0,0,0.6)),(rgba(0,0,0,0.6));
-    background: url ('picture/python.jpeg');
+   	background:url(picture/forest-4074521.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+.user-box
+{
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+.user-box img
+{
+	border-radius: 50%;
+	width: 250px;
+	border: 2px solid #ffffff;
 }
