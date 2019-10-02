@@ -58,3 +58,16 @@ body
 	0%{transform: translateY(0);}
 	100%{transform: translateY(10px);}
 }
+/*------about-----*/
+
+.about
+{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+.profil-img
+{
+	border-radius: 50%;
+	width: 175px;
+	border:	2px solid #000000;
+}
