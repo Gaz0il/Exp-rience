@@ -5,28 +5,31 @@ body
     font-family: sans-serif;
 
 }
-/*---------header CSS----------*/
+/*---------Page1 css----------*/
 
 #header
 {
 	height:100vh;
 
 	background:linear-gradient(rgba(0,0,0,0.6)),(rgba(0,0,0,0.6));
-   	background:url(picture/forest-4074521.png);
+   	background:url(picture/hedgehog-child-1784324_1920.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .user-box
 {
-	top: 70%;
-	left: 50%;
+	top: 65%;
+	left: 80%;
 	transform: translate(-50%,-50%);
 	position: absolute;
+	color: rgb(255, 251, 245)
 }
-.user-box img
+.user-box p
 {
-	border-radius: 50%;
-	width: 250px;
-	border: 2px solid #ffffff;
+	color: rgb(255, 251, 245);
+	font-weight: lighter;
+	margin: 10px;
+	font-size: 20px;
 }
+
