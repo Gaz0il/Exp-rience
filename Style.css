@@ -67,6 +67,7 @@ body
 }
 .profil-img
 {
+	margin-top: 100px;
 	border-radius: 50%;
 	width: 175px;
 	border:	2px solid #000000;
@@ -86,4 +87,37 @@ body
 {
 	border-radius: 16px;
 	background: #000000 !important;
+}
+
+.timeline
+{
+	list-style-type: none;
+	position: relative;
+}
+
+.timeline:before
+{
+	content: '';
+	background: #000000;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 1;
+
+}
+.timeline li
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	color: #000000;
+}
+.timeline li h4
+{
+	background-color: #000000;
+	padding: 5px 0 5px 20px;
+	color: #ffffff;
+	font-size: 15px;
 }
