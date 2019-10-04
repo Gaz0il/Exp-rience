@@ -74,9 +74,13 @@ body
 .profil-img
 {
 	margin-top: 100px;
-	border-radius: 50%;
-	width: 175px;
-	border:	2px solid #000000;
+	/*border-radius: 50%;*/
+	width: 210px;
+	border: 2px solid #000000;
+	border-top-left-radius: 50% ;
+	border-top-right-radius:  1% ;
+	border-bottom-left-radius: 50% ;
+	border-bottom-right-radius: 20%;
 }
 
 .skills-bar p
