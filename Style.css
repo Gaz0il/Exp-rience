@@ -10,7 +10,6 @@ body
 #header
 {
 	height:100vh;
-
 	background:linear-gradient(rgba(0,0,0,0.6)),(rgba(0,0,0,0.6));
    	background:url(picture/hedgehog-child-1784324_1920.jpg);
     background-position: center;
@@ -74,9 +73,9 @@ body
 .profil-img
 {
 	margin-top: 100px;
-	/*border-radius: 50%;*/
+	
 	width: 210px;
-	border: 2px solid #000000;
+	/*border: 2px solid #000000;*/
 	border-top-left-radius: 50% ;
 	border-top-right-radius:  1% ;
 	border-bottom-left-radius: 50% ;
@@ -219,3 +218,14 @@ body
 	color: #fff;
 }
 
+/*--------contact---------*/
+
+.contact
+{
+	padding-top:100px;
+	background:linear-gradient(rgba(0,0,0,0.6)),(rgba(0,0,0,0.6));
+   	background:url(picture/keyboard-616492_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
