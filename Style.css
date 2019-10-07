@@ -74,7 +74,6 @@ body
 	margin-top: 100px;
 	
 	width: 210px;
-	/*border: 2px solid #000000;*/
 	border-top-left-radius: 50% ;
 	border-top-right-radius:  1% ;
 	border-bottom-left-radius: 50% ;
@@ -225,8 +224,6 @@ body
 
 	background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)),
     url('picture/keyboard-616492_1920.jpg');
-
-	/*background:-webkit-linear-gradient(rgba(0, 0, 0, 0.9)),(rgba(0,0,0,0.9));*/
     background-position: center;
     background-size: cover;
 	background-attachment: fixed;
