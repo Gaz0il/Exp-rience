@@ -1,284 +1,429 @@
 <html>
-
-<head>
+  <head>
     <title>Walti</title>
-    <meta charset="UTF-8">
-    <link rel='icon' href='picture/favicon.ico' type='image/x-icon'>
-    <link rel="stylesheet" href="Style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <link rel="icon" href="picture/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/7ea66ec085.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/7ea66ec085.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!----Header ---->
     <section id="header">
-        <div class="container text-center">
-            <div class="user-box">
-                <h1>Walter Hérisson </h1>
-                <p>Développeur Java Angular</p>
-            </div>
+      <div class="container text-center">
+        <div class="user-box">
+          <h1>Walter Hérisson</h1>
+          <p>Curieux animal dans le monde du dev</p>
         </div>
-        <div class="scroll-btn">
-            <div class="scroll-bar">
-                <a href=""><span> </span></a>
-            </div>
+      </div>
+      <div class="scroll-btn">
+        <div class="scroll-bar">
+          <a href=""><span> </span></a>
         </div>
+      </div>
     </section>
     <!-----InfoExp----->
 
     <section id="infoexp">
-        <div class="nav-bar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Menu</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#header">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">A PROPOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">EXPERIENCES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#challenge">CHALLENGES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-        <!----------Aboutme/skill----------->
-        <div class="about container" id="about">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <img src="picture/bouille_nuance.png" class="profil-img">
-                    <br> <i>Alias Gaz0il</i>
-                </div>
-                <div class="col-md-6">
-                    <h3>
-                        Qui suis-je?
-                    </h3>
-                    <p> Aprés plusieurs années d'expériences dans le domaine des achats et marketing,
-                        j'ai décidé de réaliser une reconversion en tant que développeur, beaucoup plus en adéquation
-                        avec mes envies : réalisation de projet
-                        en équipe et la liberté de création, le tout dans un domaine de pointe.
-                        Suite à plusieurs formations en tant que développeur Java et Python, j'ai eu l'occasion
-                        d'apprendre et de mettre en application mes connaissances
-                        à travers des projets backend, frontend via Angular et la gestion de base de données.
-                        Aujourd'hui, c'est un normand installé dans la cité phocéenne, qui désire être challengé sur des
-                        missions de dev.
-                        Naturellement attiré par les nouvelles technologies, je souhaite
-                        être un acteur de vos futurs ambitions technologiques.
-                        Je suis également ouvert à l'apprentissage de nouveaux langages pour mener à bien vos
-                        projets. </p>
+      <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#header">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">A PROPOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">EXPERIENCES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#challenge">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!----------Aboutme/skill----------->
+      <div class="about container" id="about">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <img src="picture/bouille_nuance.png" class="profil-img" />
+            <br />
+            <i>Alias Gaz0il</i>
+          </div>
+          <div class="col-md-6">
+            <h3>Qui suis-je?</h3>
+            <p>
+              Aprés plusieurs années d'expériences dans le domaine des achats et
+              marketing, j'ai décidé de réaliser une reconversion en tant que
+              développeur, beaucoup plus en adéquation avec mes envies :
+              réalisation de projet en équipe et liberté de création, le tout
+              dans un domaine de pointe. Suite à plusieurs formations en tant
+              que développeur Java et Python et une alternance Openclassroom,
+              j'ai eu l'occasion d'apprendre et de mettre en application mes
+              connaissances à travers des projets backend, frontend via
+              différents frameworks. Aujourd'hui, c'est un normand installé dans
+              la cité phocéenne, qui désire être challengé. Naturellement attiré
+              par les nouvelles technologies, je souhaite être un acteur de vos
+              futurs ambitions technologiques. Je suis également ouvert à
+              l'apprentissage de nouvelles technos pour mener à bien vos
+              projets. <br /><br />Si vous désirez en savoir plus sur moi, je
+              vous invite à me contacter !
+            </p>
 
-                    <div class="skills-bar">
-                        <p>Java</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 70%">70%
-                            </div>
-                        </div>
-                        <p>SQL</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 80%">80%
-                            </div>
-                        </div>
-                        <p>HTML/CSS/Javascript</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 60%">60%
-                            </div>
-                        </div>
-                        <p>Python</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 40%">40%
-                            </div>
-                        </div>
-                        <p>Angular</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 30%">30%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!-----------ResumeExp------------>
-        <div class="resume" id="resume">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3 class="text-center"> Mes expériences</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4><span>2019</span> - Développeur Front-end</h4>
-                                <p>
-                                    Réalisation de site vitrine, conceptualisation et déploiement en HTML5 ,CSS 3 et
-                                    Bootstrap.<br>
-                                    Un exemple <a href="http://projet.t-p-n.fr/" target="_blank">ici</a><br>
-                                    <b>Société</b> - T-P-N.fr<br>
-                                    <b>Durée</b> - 3 mois <br>
-                                    <b>lieu</b> - Marseille<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2018</span> - Consultant en travel management</h4>
-                                <p>
-                                    Audit, recommandation, négociation<br>
-                                    <b>Société</b> - Veolia<br>
-                                    <b>Durée</b> - 1 an<br>
-                                    <b>lieu</b> - Aubervilliers (93)<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2017</span> - Mobility manager -fleet,travel & expense</h4>
-                                <p>
-                                    Coordination de projet international, gestion des litiges, consolisation des données
-                                    et gestion des politiques (travel&expense)<br>
-                                    <b>Société</b> - Mondelez<br>
-                                    <b>Durée</b> - 7mois (CDD)<br>
-                                    <b>lieu</b> - Clamart (92)<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2016</span> - Travel manager</h4>
-                                <p>
-                                    Tracking KPI,négociation des contrats, consolidation données, gestion d'équipe et
-                                    monitoring technique<br>
-                                    <b>Société</b> - IRD<br>
-                                    <b>Durée</b> - 11 mois<br>
-                                    <b>lieu</b> - Marseille (13)<br>
-                                </p>
-                            </li>
+            <div class="skills-bar">
+              <p>Javascript</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
 
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h3 class="text-center"> Formations</h3>
-                        <ul class="timeline">
-                            <li>
-                                <h4><span>2018</span> - POEI développeur Java SOA Spring Angular</h4>
-                                Conceptualiser une application, maîtriser les frameworks clés frontent et backend.
-                                <br><b>Programme : </b><br><i>
-                                    - Développement d'interfaces utilisateur avec Angular<br>
-                                    - Modélisation UML<br>
-                                    - Utilsation de pattern : DAO, Observable, Singleton <br>
-                                    - Ecriture de requêtes simples et complexes SQL<br>
-                                    - Concevoir et implémenter une application en utilisant des API Servlet et JSP<br>
-                                    - Gestion des dépendances avec Maven<br>
-                                    - Familiarisé avec Jenkins<br>
-                                </i>
-                                <p>
-                                    <b>Société</b> - CGI<br>
-                                    <b>Durée</b> - 3 mois <br>
-                                    <b>lieu</b> - Ivry-sur-seine<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2018</span> - POEC développeur python</h4>
-                                <p>
-                                    <b>Société</b> - AELION<br>
-                                    <b>Durée</b> - 3 mois <br>
-                                    <b>lieu</b> - Toulouse<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2018</span> - MBA international travel management</h4>
-                                <p>
-                                    <b>Ecole</b> - ESCAET<br>
-                                    <b>Année</b> - 2015-2017 <br>
-                                    <b>lieu</b> - Aix-en-provence (13)<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2015</span> - Bachelor travel</h4>
-                                <p>
-                                    <b>Ecole</b> - ESCAET<br>
-                                    <b>Année</b> - 2013-2014<br>
-                                    <b>lieu</b> - Aix-en-provence (13)<br>
-                                </p>
-                            </li>
-                            <li>
-                                <h4><span>2009</span> - BTS tourisme et communication</h4>
-                                <p>
-                                    <b>Ecole</b> - Tunon<br>
-                                    <b>Année</b> - 2007-2009<br>
-                                    <b>lieu</b> - Caen (14)<br>
-                                </p>
-                            </li>
-                    </div>
-                </div>
+              <p>SQL</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 80%">80%</div>
+              </div>
+              <p>HTML/CSS</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+              <p>Java</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 60%">60%</div>
+              </div>
+              <p>ReactJs</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 50%">50%</div>
+              </div>
+              <p>Python</p>
+              <div class="progress">
+                <div class="progress-bar" style="width: 40%">40%</div>
+              </div>
             </div>
+          </div>
         </div>
-        <!------------challenge------------->
-        <div class="challenge" id="challenge">
-            <div class="container">
-                <h1 class="text-center">
-                    Challenge
-                </h1>
-                <p class="text-center"> A la recherche de challenge dans le dév. sur l'une des thématiques suivantes par
-                    exemple:</p>
+      </div>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="challenges-box">
-                            <i class="fas fa-server"></i><span> JAVA</span>
-                            <p>Réalisation d'application JEE et lourde JAVA
-                                <br>Backend: gestion des API REST (Spring Boot)
-                                <br> SOA micro-service</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="challenges-box">
-                            <i class="fa fa-database"></i><span> PostgrSQL & MySQL</span>
-                            <p>Création base de données, requête SQL </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="challenges-box">
-                            <i class="fas fa-laptop-code"></i><span> Angular</span>
-                            <p> Réalisation d'appli web </p>
-                        </div>
-                    </div>
-                </div>
+      <!-----------ResumeExp------------>
+      <div class="resume" id="resume">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 class="text-center">Mes expériences</h3>
+              <ul class="timeline">
+                <li>
+                  <h4><span>2020-2021</span> Développeur</h4>
+                  <p>
+                    <b>Tâches accomplies:</b><br />
+                    creation de script (powershell) , mise en place de flux rtsp
+                    (streaming), déploiement d'un serveur linux sous IPSconfig
+                    et gestion de ses proxys, utilisation de dockers, dashboard
+                    des données météos via ReactJs, utilisation du framework
+                    ChartJs, fonction support technique <br />
+                    <b>Société</b> - Nauticspot<br />
+                    <b>Durée</b> - 1 an (Alternance)<br />
+                    <b>lieu</b> - Remote (full time)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2019</span> Autoformation Développeur Front-end</h4>
+                  <p>
+                    Réalisation de site vitrine, conceptualisation et
+                    déploiement en HTML5 ,CSS 3 et Bootstrap.<br />
+                    <b>Durée</b> - 3 mois <br />
+                    <b>lieu</b> - Marseille (13)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4>
+                    <span>2018-2019</span> - Consultant en travel management
+                  </h4>
+                  <p>
+                    Audit, recommandation, négociation<br />
+                    <b>Société</b> - Veolia<br />
+                    <b>Durée</b> - 1 an<br />
+                    <b>lieu</b> - Aubervilliers (93)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4>
+                    <span>2017</span> - Mobility manager -fleet,travel & expense
+                  </h4>
+                  <p>
+                    Coordination de projet international, gestion des litiges,
+                    consolisation des données et gestion des politiques
+                    (travel&expense)<br />
+                    <b>Société</b> - Mondelez<br />
+                    <b>Durée</b> - 7mois (CDD)<br />
+                    <b>lieu</b> - Clamart (92)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2016</span> - Travel manager</h4>
+                  <p>
+                    Tracking KPI,négociation des contrats, consolidation
+                    données, gestion d'équipe et monitoring technique<br />
+                    <b>Société</b> - IRD<br />
+                    <b>Durée</b> - 11 mois<br />
+                    <b>lieu</b> - Marseille (13)<br />
+                  </p>
+                </li>
+              </ul>
             </div>
+            <div class="col-md-6">
+              <h3 class="text-center">Formations</h3>
+              <ul class="timeline">
+                <li>
+                  <h4><span>2021-2023</span> - MSC Pro</h4>
+                  Titre RNCP niveau 1
+                  <br /><b>Programme : </b><br /><i>
+                    - Iot<br />
+                    - IA<br />
+                    - Big Data <br />
+                    - Cybersécurité<br />
+                    - Réalité virtuelle<br />
+                    - Cloud<br />
+                  </i>
+                  <p>
+                    <b>Ecole</b> - {E}pitech<br />
+                    <b>Durée</b> - 2 an (alternance)<br />
+                    <b>lieu</b> - Marseille<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2020-2021</span> - Alternance développeur web</h4>
+
+                  Titre RNCP niveau 5
+                  <br /><b>Programme : </b><br /><i>
+                    - Transformer une maquette en site web<br />
+                    - Dynamiser une page web avec des animations CSS (SASS)<br />
+                    - Optimiser le référencement d'un site web <br />
+                    - Constuire un site e-commerce<br />
+                    - Construire une API sécurisée pour une app.
+                    gastronomique<br />
+                    - Créer un réseaul social d'entreprise<br />
+                  </i>
+                  <p>
+                    <b>Ecole</b> - Openclassroom<br />
+                    <b>Durée</b> - 1 an <br />
+                    <b>lieu</b> - Remote<br />
+                  </p>
+                </li>
+
+                <li>
+                  <h4>
+                    <span>2018</span> - POEI développeur Java SOA Spring Angular
+                  </h4>
+                  Conceptualiser une application, maîtriser les frameworks clés
+                  frontent et backend.
+                  <br /><b>Programme : </b><br /><i>
+                    - Développement d'interfaces utilisateur avec Angular<br />
+                    - Modélisation UML<br />
+                    - Utilsation de pattern : DAO, Observable, Singleton <br />
+                    - Ecriture de requêtes simples et complexes SQL<br />
+                    - Concevoir et implémenter une application en utilisant des
+                    API Servlet et JSP<br />
+                    - Gestion des dépendances avec Maven<br />
+                    - Familiarisé avec Jenkins<br />
+                  </i>
+                  <p>
+                    <b>Société</b> - CGI<br />
+                    <b>Durée</b> - 3 mois <br />
+                    <b>lieu</b> - Ivry-sur-seine<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2018</span> - POEC développeur python</h4>
+                  <p>
+                    <b>Société</b> - AELION<br />
+                    <b>Durée</b> - 3 mois <br />
+                    <b>lieu</b> - Toulouse<br />
+                  </p>
+                </li>
+                <li>
+                  <h4>
+                    <span>2018</span> - MBA international travel management
+                  </h4>
+                  <p>
+                    <b>Ecole</b> - ESCAET<br />
+                    <b>Année</b> - 2015-2017 <br />
+                    <b>lieu</b> - Aix-en-provence (13)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2015</span> - Bachelor travel</h4>
+                  <p>
+                    <b>Ecole</b> - ESCAET<br />
+                    <b>Année</b> - 2013-2014<br />
+                    <b>lieu</b> - Aix-en-provence (13)<br />
+                  </p>
+                </li>
+                <li>
+                  <h4><span>2009</span> - BTS tourisme et communication</h4>
+                  <p>
+                    <b>Ecole</b> - Tunon<br />
+                    <b>Année</b> - 2007-2009<br />
+                    <b>lieu</b> - Caen (14)<br />
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <!----------------------------------------contact--------------------------->
-        <div class="contact" id="contact">
-            <div class="container text-center">
-                <h1>Mon contact</h1>
-                <p class="text-center">
-                    Pour plus d'information, n'hésitez pas à prendre contact ! </p>
+      </div>
+      <!------------Portfolio------------->
+      <div class="challenge" id="challenge">
+        <div class="container">
+          <h1 class="text-center">Portfolio</h1>
+          <p class="text-center">Lien vers les differentes projets</p>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://gaz0il.github.io/restaurant/';"
+              >
+                <i class="fa fa-mobile"></i
+                ><span> Integration maquette mobile</span>
+                <p>
+                  L'integration d'une maquette mobile et d'animations demandée
+                  par le client pour la réalisation d'une plateforme de commande
+                  de plats
                 </p>
-                <a href="https://www.linkedin.com/in/herisson-agile-python/" target="_blank">
-                    <button type="button" class="btn btn-primary">
-                        <i class="fa-fa-download">
-                            Connectons-nous <i class="fab fa-linkedin fa-lg"></i>
-                        </i></button></a>
+              </div>
             </div>
-            <div class="footer text-center">
-                Réalisé avec passion et le soutien de <a href="http://jeremy.trigano.free.fr/" target="_blank"><i
-                        class="fab fa-wolf-pack-battalion"></i></a>
-                </br> </br>
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://nauticspot.io/weather/?harbour=8&token=LAF20VooQSkdOuj%2FxehrkR09z5sjiuJVobbsAwY0IKgEACHKMjFyIgCvpQwj%2Bd5zmw0%3D';"
+              >
+                <i class="fa fa-sun-o"></i><span> Station méteo ReactJs</span>
+                <p>
+                  Première experience avec ReactJs, les données météos sont
+                  envoyés depuis un script qui lit les données d'un excel généré
+                  par la station météo locale.
+                </p>
+              </div>
             </div>
-
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://github.com/Gaz0il/orinoco';"
+              >
+                <i class="fas fa-laptop-code"></i><span> Projet Front</span>
+                <p>
+                  Réalisation d'un site e-commerce, dans lequel je joue avec le
+                  local storage pour constituer un panier d'achat et prendre en
+                  charge depuis le serveur un numéro de commande.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://webcam.nauticspot.io/cavalaire2/player.html';"
+              >
+                <i class="fa fa-video-camera"></i><span>Flux RTSP </span>
+                <p>
+                  Mise en place d'un serveur linux (IPSConfig) pour
+                  l'adminisatration et la gestion des flux rtsp des caméras
+                  clients via le docker restreamer. (l'exemple est le port de
+                  cavalaire)
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://media.giphy.com/media/K0JrA2VbkFy2A/giphy.gif';"
+              >
+                <i class="fa fa-server"></i><span>Projet Back </span>
+                <p>
+                  A venir... construire API sécurisée via Node JS et Express
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div
+                class="challenges-box"
+                style="cursor: pointer"
+                onclick="window.location='https://media.giphy.com/media/K0JrA2VbkFy2A/giphy.gif';"
+              >
+                <i class="fa fa-thumbs-up"></i><span>Projet ReactJs </span>
+                <p>
+                  A venir... Un deuxième projet ReactJs: construire un réseau
+                  social entreprise
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
+      <!----------------------------------------contact--------------------------->
+      <div class="contact" id="contact">
+        <div class="container text-center">
+          <h1>Mon contact</h1>
+          <p class="text-center">
+            Pour plus d'information, n'hésitez pas à prendre contact !
+          </p>
 
+          <a
+            href="https://www.linkedin.com/in/herisson-agile-python/"
+            target="_blank"
+          >
+            <button type="button" class="btn btn-primary">
+              <i class="fa-fa-download">
+                Connectons-nous <i class="fab fa-linkedin fa-lg"> </i>
+              </i></button
+          ></a>
+          <button type="button" class="btn btn-primary">
+            <i class="fa-fa-download">
+              <a
+                href="./picture/CV_2021_Walter_Hérisson.pdf"
+                target="_blank"
+              ></a>
+
+              CV
+            </i>
+          </button>
+        </div>
+        <div class="footer text-center">
+          Réalisé avec passion et le soutien de
+          <a href="http://jeremy.trigano.free.fr/" target="_blank"
+            ><i class="fab fa-wolf-pack-battalion"></i
+          ></a>
+        </div>
+      </div>
     </section>
-
-</body>
-
+  </body>
 </html>
